@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="styleform.CSS>
+<meta charset="ISO-8859-1">
+<title>Faculty Registration Page</title>
+</head>
+<body>
+<header><h2>Faculty Registration Form</h2></header>
+<div id ="envelope">
+<form action="registerteacher.jsp" method="post">
+<label>Teacher-Id</label><input type="text" name="id">
+<label>Name</label><input type="text" name="name">
+<label>Email</label><input type="email" name="email">
+<label>Password</label><input type="password" name="password">
+<label>Department</label><select name="department" id="dept">
+<option>Computer Science Department</option>
+<option>Information Technology Department</option>
+<option>Electronics and Communication Department</option>
+<option>Mechanical Engineering Department</option>
+<option>Electrical Engineering Department</option>
+<option>Civil Engineering Department</option>
+<option>Petrochemical Engineering Department</option>
+</select>
+<input type="submit" value="Register">
+</form>
+</div>
+</body>
+</html>

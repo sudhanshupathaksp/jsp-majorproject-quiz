@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styleform.CSS">
+<meta charset="ISO-8859-1">
+<title>Student Registration Page</title>
+</head>
+<body>
+    <div id="envelope">
+        <form action="registerstudent.jsp" method="post">
+        <header>
+        <h2>Student Registration Form</h2>
+        </header>
+        <label>Name</label>
+        <input name="name" placeholder="your name" type="text" width="100px;">
+        <label>Enrollment Number</label>
+        <input type="text" name="Enrollment" placeholder="enrollment id">
+        <label>Email Id</label>
+        <input name="email" placeholder="yourname@gmail.com" type="email">
+        <label>Password</label>
+        <input name="Password" placeholder="********" type="password">
+        <label>Branch</label>
+        <select name="Branch" id="branch">
+            <option value="">Computer Science</option>
+            <option value="">Information Technology</option>
+            <option value="">Electronics & Communication</option>
+            <option value="">Mechanical Engineering</option>
+            <option value="">Civil Engineering</option>
+            <option value="">Electrical Engineering</option>
+            <option value="">Petrochemical Engineering</option>
+        </select>
+        <label>Semester</label>
+        <select name="Semester" id="sem">
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+            <option value="">5</option>
+            <option value="">6</option>
+            <option value="">7</option>
+            <option value="">8</option>
+        </select>
+        <input id="submit" type="submit" value="Register">
+        </form>
+</div>
+</body>
+</html>
